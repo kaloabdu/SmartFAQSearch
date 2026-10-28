@@ -6,7 +6,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from sentence_transformers import SentenceTransformer
-from src.main import load_faqs, build_search_index, MODEL_NAME
+from src.SmartFAQSearch import load_faqs, build_search_index, MODEL_NAME
 
 
 # Keep this fixed while collecting evaluation results.

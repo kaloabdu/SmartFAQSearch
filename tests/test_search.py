@@ -5,7 +5,7 @@ from io import StringIO
 
 import numpy as np
 
-from src.main import search_faqs
+from src.SmartFAQSearch import search_faqs
 
 
 class FakeModel:
